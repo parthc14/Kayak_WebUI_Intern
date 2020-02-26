@@ -1,0 +1,37 @@
+@import url("fonts.css");
+@import url("select.css");
+@import url("header.css");
+@import url("search-button.css");
+@import url("image.css");
+
+body {
+	margin: 0;
+    background: white;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1 {
+    font-family: font;
+    padding-top: 1%;
+    font-size: 50px;
+    margin: 20px 20px;
+}
+
+main div h1{
+  font-size: 50px;
+  font-weight: 800;
+  
+}
+
+main div{
+    padding: 0.5%;
+  } 
+  
+main div .main {
+    width: 900px;
+    height: 400px;
+  }

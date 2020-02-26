@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index.html</title>
+    <link rel="stylesheet" href="./css/main.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+          <div class="logo">
+            <img src ="../solution/assets/kayak-logo.svg"/>
+          </div>
+          <nav>
+            <ul>
+              <li><b>Tours</b></li>
+            </ul>
+          </nav>        
+        </div>
+      </header>
+      <main class="container">
+        <div class="main">
+            <h1 class="h1">All the best tours, all in one place.</h1>
+            <div class="form">
+                <form class="form-inline"> 
+                  <div style="margin-bottom: auto; padding: 0%;">
+                    <select name="season" id="seasons-select" class="select" onchange="updateCategories()">
+                      <option value="" name="season" disabled selected>Seasons</option>
+                    </select>
+                    <select class="select" id="category-select" name="category" onchange="updateDestinations()">
+                      <option value="" disabled selected>Category</option>
+                    </select>
+                    <select class="select" id="destination-select" name="destination" onchange=renderImg()>
+                      <option value="" disabled selected >Destination</option>
+                    </select>
+                    <span><input type="image" class="search-button" src="../solution/assets/search-icon.svg" alt="Submit" width="48" height="50"></span>
+                    </div>
+                </form>              
+            </div>
+            <div id="img">
+              <span id="img-span"></span>
+              <span id="text-span"></span>
+            </div>
+          </div>
+        </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
+
+

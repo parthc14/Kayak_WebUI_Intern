@@ -1,0 +1,135 @@
+@font-face {
+    font-family: font;
+    src: url(/solution/assets/forza-black.woff2);
+  }
+  
+body {
+	margin: 0;
+    background: white;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+select{
+  outline: none;
+}
+
+header {
+  background:#FF6347;
+  height: 1%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+  height: 1%;
+}
+
+.logo {
+  float: left;
+  height: 25px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+nav {
+  height: 20px;
+}
+
+nav ul {
+  display: inline-block;
+  
+}
+
+
+nav li {
+  display: inline-block; 
+  position: relative;
+  color:white;
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+}
+
+h1 {
+    font-family: font;
+    padding-top: 1%;
+    font-size: 50px;
+    margin: 20px 20px;
+}
+
+
+main div {
+ padding-top: 3%;
+}
+
+main div h1{
+  font-size: 50px;
+  font-weight: 800;
+  
+}
+
+
+
+/* Styling select */
+
+
+select {
+  /* margin: 50px; */
+  display: inline-block;
+  margin-top: auto;
+  width: 275px;
+  padding: 5px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background:  96% / 15% no-repeat #eee;
+}
+
+select::-ms-expand { 
+    display: none; 
+}
+
+@media screen and (min-width:0\0) {
+    select {
+        background:none\9;
+        padding: 5px\9;
+    } 
+}
+
+
+.search-button{
+  background:#FF6347;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding-bottom: 1;
+  display: inline-block;
+  margin-left: 5px;
+  position: absolute;
+  padding-left: 5px;
+}  
+
+#img{
+  width: 890px;
+  height: 450px;
+}
+
+main div{
+  padding: 0.5%;
+}
+
+main div .main {
+  width: 900px;
+  height: 400px;
+}

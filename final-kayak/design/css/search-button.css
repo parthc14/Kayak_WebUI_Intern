@@ -1,0 +1,14 @@
+.search-button{
+    background:#FF6347;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 1;
+    display: inline-block;
+    margin-left: 5px;
+    position: absolute;
+    padding-left: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+  }  
+  
